@@ -1,0 +1,73 @@
+/* Responsividade */
+        @media (max-width: 992px) {
+            h1{
+                
+            }
+            .perfil {
+                text-align: center;
+            }
+            .resume-container {
+                flex-direction: column;
+                margin: 10px;
+            }
+            
+            .left-column, .right-column {
+                width: 100%;
+            }
+            
+            .left-column {
+                padding: 30px;
+            }
+            
+            .right-column {
+                padding: 30px;
+            }
+        }
+
+        .job-title {
+            text-align: center;
+        }
+        
+        /*Telas de Taanho Medio*/
+        @media (max-width: 576px) {
+            #perfil {
+                display: flex;
+                margin: 0px;
+                
+            }
+            .perfil {
+                margin-right: 15px;
+                margin-left: -1px;
+                margin-bottom: 15px;
+            
+            }
+
+            h1 {
+                padding-top: 30px;
+                text-align: justify;
+             }
+
+            .name {
+                font-size: 1.5rem;
+            }
+            
+            .job-title {
+                font-size: 1.1rem;
+            }
+            
+            .courses-list, .awards-list {
+                grid-template-columns: 1fr;
+            }
+            
+            .section-title {
+                font-size: 1.2rem;
+            }
+
+            .job-title {
+                text-align: left;
+            }
+        }
+
+        
+        
+       
