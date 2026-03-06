@@ -29,7 +29,7 @@
         }
         
         /*Telas de Taanho Medio*/
-        @media (max-width: 376px) {
+        @media (max-width: 676px) {
             #perfil {
                 display: flex;
                 margin: 0px;
