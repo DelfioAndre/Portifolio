@@ -302,6 +302,13 @@ footer {
     margin-left: 10px;
     vertical-align: middle;
 }
+/*Linkes dos doc's na classe ver imagem*/
+li > a {
+    color: #7f8c8d;
+    font-size: 1rem;
+    font-style: italic;
+    text-decoration: none;
+}
 
 
 /*Intruções de target das imagens*/
