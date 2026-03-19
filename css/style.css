@@ -309,6 +309,10 @@ li > a {
     font-style: italic;
     text-decoration: none;
 }
+li {
+    list-style: none;
+    
+}
 
 
 /*Intruções de target das imagens*/
