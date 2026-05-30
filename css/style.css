@@ -168,9 +168,10 @@ h1 {
 .institution,
 .company,
 .feito {
-    color: #7f8c8d;
+    color: #2b2b2b;
     font-size: 1rem;
     font-style: italic;
+    font-weight: 500;
 }
 
 .feito {
@@ -303,15 +304,20 @@ footer {
     vertical-align: middle;
 }
 /*Linkes dos doc's na classe ver imagem*/
-li > a {
-    color: #7f8c8d;
+li > a,
+li > a:visited {
+    color: #2b2b2b;
     font-size: 1rem;
     font-style: italic;
+    font-weight: 500;
     text-decoration: none;
+}
+li > a:hover,
+li > a:focus {
+    text-decoration: underline;
 }
 li {
     list-style: none;
-    
 }
 
 
