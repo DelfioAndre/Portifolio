@@ -9,10 +9,14 @@ body {
     background-color: #f5f7fa;
     color: #333;
     line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .resume-container {
     display: flex;
+    flex: 1 0 auto;
     max-width: 1200px;
     margin: 30px auto;
     background-color: white;
@@ -257,7 +261,8 @@ footer {
     background-color: #887152;
     text-align: center;
     padding: 20px;
-    margin-top: 30px;
+    margin-top: auto;
+    flex-shrink: 0;
     color: lightgray;
     font-size: 0.9rem;
     border-top: 1px solid #ecf0f1;
