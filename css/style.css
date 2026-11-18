@@ -198,7 +198,7 @@ h1 {
 .skill-name {
     font-weight: 600;
     margin-bottom: 8px;
-    color: #6db0f3;
+    color: #b8cbd8;
 }
 
 .skill-bar {
@@ -307,6 +307,71 @@ footer {
     margin-left: 10px;
     vertical-align: middle;
 }
+
+/* Mais contraste e hierarquia para as informações profissionais */
+.right-column .section-title {
+    border-bottom-width: 3px;
+}
+
+.right-column .education-item,
+.right-column .experience-item {
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.right-column .degree,
+.right-column .position {
+    color: #000;
+}
+
+.right-column .institution,
+.right-column .company,
+.right-column .feito {
+    color: #000;
+    font-style: normal;
+}
+
+.right-column .institution a,
+.right-column .company a,
+.right-column .feito a {
+    color: #000;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.right-column .competencia-list .feito {
+    padding: 0;
+}
+
+.competencia-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+.competencia-list li {
+    flex: 1 1 220px;
+    padding: 0;
+    color: #000;
+    font-size: 0.98rem;
+    font-weight: 600;
+    line-height: 1.45;
+}
+
+.left-column .skill-name {
+    color: #a9d6ff;
+    font-size: 1rem;
+}
+
+.left-column .skill-percentage {
+    color: #ecf0f1;
+}
+
+.left-column .contact-text a {
+    color: #fff;
+}
+
 /*Linkes dos doc's na classe ver imagem*/
 li > a {
     color: #7f8c8d;
